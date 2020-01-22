@@ -1,0 +1,101 @@
+body{
+  background-image: url('background-3.png');
+  background-size: cover;
+  background-position: bottom;
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding:5%;
+  z-index: 1;
+}
+
+/* .background {
+  position: absolute;
+  opacity: 0.5;
+} */
+
+.header{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size:20px;
+}
+
+.create{
+  font-size: 50px;
+}
+
+.élement{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  display: flex;
+  align-content: space-around;
+  height:auto;
+}
+
+.part{
+  background-color: aliceblue;
+  color: black;
+  width: 300px;
+  height:320px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  border-radius: 10%;
+  font-size: 20px;
+}
+.subtitle{
+   font-size: 25px;
+   padding-top: 0px;
+   text-align: center;
+   color: white;
+ }
+
+.why{
+  display: flex;
+  font-size: 25px;
+  width: 800px;
+  border-radius: 40px 40px 40px;
+  height: 150px;
+  text-align: center;
+  padding: 20px;
+  color: aliceblue;
+  background-color:rgb(122, 187, 122);
+  align-items: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.gif{
+  float:right;
+  border-radius: 40px;
+}
+
+.title{
+  color: white;
+  padding: 40px;
+}
+
+.subtitle{
+  font-style: italic;
+}

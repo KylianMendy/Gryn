@@ -1,5 +1,5 @@
 body{
-  background-image: url('background-3.png');
+  background-image: url("../IMG/background-3.png"); 
   background-size: cover;
   background-position: bottom;
   background-color: whitesmoke;
@@ -9,11 +9,6 @@ body{
   z-index: 1;
 }
 
-/* .background {
-  position: absolute;
-  opacity: 0.5;
-} */
-
 .header{
   display: flex;
   text-align: center;
@@ -22,7 +17,8 @@ body{
 }
 
 .create{
-  font-size: 50px;
+  font-size: 200px;
+  font-weight: bold; 
 }
 
 .élement{
